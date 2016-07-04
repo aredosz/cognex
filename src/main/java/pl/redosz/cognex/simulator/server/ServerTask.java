@@ -163,7 +163,7 @@ public class ServerTask implements Runnable {
             try {
                 value.getValue().write(ByteBuffer.wrap(response.getBytes()));
             } catch (IOException e) {
-                clients.remove(value.getKey());
+                iterator.remove();
             }
         }
     }

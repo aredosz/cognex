@@ -129,7 +129,7 @@ public class ServerTask implements Runnable {
 
             if (key.isReadable()) {
                 String request = processRead(key);
-                if (request.length() > 0 && request.equals(triggerPhrase.getText() + "\n")) {
+                if (request.length() > 0 && request.equals(triggerPhrase.getText().replaceAll("\\\\r", "\r").replaceAll("\\\\n", "\n"))) {
                     sendResponseToClients();
                 }
             }

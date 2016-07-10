@@ -139,7 +139,7 @@
                               <TextField fx:id="remotelyPort" maxWidth="150.0" text="9067" GridPane.columnIndex="1" />
                               <TextField fx:id="remotelyPrefix" maxWidth="150.0" text="DM" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                               <TextField fx:id="remotelyPostfix" maxWidth="150.0" text="\\r\n" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                              <TextField fx:id="remotelyTriggerPhrase" maxWidth="150.0" text="||&gt;TRIGGER ON" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <TextField fx:id="remotelyTriggerPhrase" maxWidth="150.0" text="||&gt;TRIGGER ON\r\n" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                               <Label text="Value:" GridPane.halignment="RIGHT" GridPane.rowIndex="4">
                                  <font>
                                     <Font size="14.0" />
